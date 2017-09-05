@@ -34,7 +34,7 @@ typedef unsigned long long iomux_v3_cfg_t;
 #include "ywwh_gpio_control.h"
 
 #if __BOOTER_CODE
-struct gpio_desc_body desc_list[1] = {
+struct gpio_desc_body desc_list[] = {
     /**
      *  hardware
      */
